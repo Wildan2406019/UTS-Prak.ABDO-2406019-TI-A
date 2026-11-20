@@ -1,0 +1,115 @@
+<mxfile host="Electron">
+  <diagram name="Halaman 1" id="main">
+    <mxGraphModel dx="860" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1021" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t" parent="1" style="text;html=1;fontSize=22;fontStyle=1;align=center;" value="USE CASE SKENARIO — MEMESAN MAKANAN" vertex="1">
+          <mxGeometry height="48" width="1050" x="70" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ident" parent="1" style="text;html=1;fontSize=13;align=center;" value="Wildan Sonhajul Mukarom | 2406019 | Informatika A" vertex="1">
+          <mxGeometry height="28" width="1050" x="70" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="l0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="Nama use case" vertex="1">
+          <mxGeometry height="43" width="420" x="70" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Memesan makanan" vertex="1">
+          <mxGeometry height="43" width="630" x="490" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="Aktor" vertex="1">
+          <mxGeometry height="43" width="420" x="70" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="v1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Pelanggan (Mahasiswa / Dosen)" vertex="1">
+          <mxGeometry height="43" width="630" x="490" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="Tujuan" vertex="1">
+          <mxGeometry height="43" width="420" x="70" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="v2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Pelanggan berhasil memesan makanan dan membayar pesanan." vertex="1">
+          <mxGeometry height="43" width="630" x="490" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="Deskripsi" vertex="1">
+          <mxGeometry height="58" width="420" x="70" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Pelanggan memilih menu; sistem memeriksa ketersediaan; pelanggan membayar; pesanan disimpan berstatus Dipesan." vertex="1">
+          <mxGeometry height="58" width="630" x="490" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" value="Skenario Normal" vertex="1">
+          <mxGeometry height="40" width="1050" x="70" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="l5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="1. Pelanggan membuka menu" vertex="1">
+          <mxGeometry height="43" width="420" x="70" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Sistem menampilkan daftar menu, harga, dan ketersediaan." vertex="1">
+          <mxGeometry height="43" width="630" x="490" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="l6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="2. Pelanggan memilih menu dan jumlah" vertex="1">
+          <mxGeometry height="43" width="420" x="70" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="v6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Sistem menampilkan ringkasan pesanan." vertex="1">
+          <mxGeometry height="43" width="630" x="490" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="l7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="3. Pelanggan mengonfirmasi pesanan" vertex="1">
+          <mxGeometry height="43" width="420" x="70" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="v7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Sistem menjalankan «include» Periksa ketersediaan menu." vertex="1">
+          <mxGeometry height="43" width="630" x="490" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="l8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="4. Pelanggan memilih ambil sendiri" vertex="1">
+          <mxGeometry height="43" width="420" x="70" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="v8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Sistem mencatat metode pengambilan di kantin." vertex="1">
+          <mxGeometry height="43" width="630" x="490" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="l9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="5. Pelanggan melanjutkan pembayaran" vertex="1">
+          <mxGeometry height="43" width="420" x="70" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="v9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Sistem menjalankan «include» Bayar pesanan." vertex="1">
+          <mxGeometry height="43" width="630" x="490" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="l10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="6. Pelanggan menyelesaikan pembayaran" vertex="1">
+          <mxGeometry height="43" width="420" x="70" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="v10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Sistem menyimpan pesanan dengan status Dipesan dan menampilkan konfirmasi." vertex="1">
+          <mxGeometry height="43" width="630" x="490" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="r11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" value="Skenario Alternative" vertex="1">
+          <mxGeometry height="40" width="1050" x="70" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="l12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="7. [Menu tidak tersedia] Pelanggan memilih ulang menu" vertex="1">
+          <mxGeometry height="43" width="420" x="70" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="v12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Sistem memberi pesan menu tidak tersedia; kembali ke langkah 2." vertex="1">
+          <mxGeometry height="43" width="630" x="490" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="l13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="8. [Pilih antar] Pelanggan mengisi ruangan tujuan" vertex="1">
+          <mxGeometry height="74" width="420" x="70" y="678" as="geometry" />
+        </mxCell>
+        <mxCell id="v13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="«extend» Pilih antar ke ruangan; extension point: opsi pengantaran; condition: pelanggan memilih antar ke ruangan. Sistem menyimpan tujuan." vertex="1">
+          <mxGeometry height="74" width="630" x="490" y="678" as="geometry" />
+        </mxCell>
+        <mxCell id="l14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="9. [Pembayaran gagal] Pelanggan mencoba kembali" vertex="1">
+          <mxGeometry height="58" width="420" x="70" y="752" as="geometry" />
+        </mxCell>
+        <mxCell id="v14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Sistem memberi pesan gagal dan tidak menyimpan pesanan; kembali ke langkah 5 atau hentikan." vertex="1">
+          <mxGeometry height="58" width="630" x="490" y="752" as="geometry" />
+        </mxCell>
+        <mxCell id="r15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" value="Skenario Akhir" vertex="1">
+          <mxGeometry height="40" width="1050" x="70" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="l16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="Berhasil" vertex="1">
+          <mxGeometry height="43" width="420" x="70" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="v16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Pesanan tersimpan berstatus Dipesan, dengan opsi antar atau ambil sendiri." vertex="1">
+          <mxGeometry height="43" width="630" x="490" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="l17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;align=left;spacingLeft=12;" value="Tidak berhasil" vertex="1">
+          <mxGeometry height="58" width="420" x="70" y="893" as="geometry" />
+        </mxCell>
+        <mxCell id="v17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;spacingLeft=12;" value="Pesanan tidak disimpan apabila pembayaran tidak berhasil atau pelanggan membatalkan proses." vertex="1">
+          <mxGeometry height="58" width="630" x="490" y="893" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

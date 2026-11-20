@@ -1,0 +1,146 @@
+<mxfile host="Electron">
+  <diagram name="Halaman 1" id="main">
+    <mxGraphModel dx="860" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ttl" parent="1" style="text;html=1;fontSize=22;fontStyle=1;align=center;" value="ACTIVITY DIAGRAM — MEMESAN MAKANAN" vertex="1">
+          <mxGeometry height="45" width="850" x="260" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="iid" parent="1" style="text;html=1;fontSize=13;align=center;" value="Wildan Sonhajul Mukarom | 2406019 | Informatika A" vertex="1">
+          <mxGeometry height="25" width="800" x="300" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lane1" parent="1" style="swimlane;startSize=38;horizontal=1;html=1;fillColor=#F8FAFF;strokeColor=#98A2B3;" value="Pelanggan" vertex="1">
+          <mxGeometry height="1330" width="470" x="60" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="start" parent="lane1" style="ellipse;fillColor=#111827;strokeColor=#111827;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="205" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="5lyukJoxsyPcHuq7ofZO-11" edge="1" parent="lane1" source="choose" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="confirm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="choose" parent="lane1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="Pilih menu dan jumlah" vertex="1">
+          <mxGeometry height="55" width="250" x="95" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="5lyukJoxsyPcHuq7ofZO-8" edge="1" parent="lane1" source="open" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="choose" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="open" parent="lane1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="Buka daftar menu" vertex="1">
+          <mxGeometry height="55" width="250" x="95" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5lyukJoxsyPcHuq7ofZO-4" edge="1" parent="lane1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="open" value="">
+          <mxGeometry relative="1" x="0.0438" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="confirm" parent="lane1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="Konfirmasi pesanan" vertex="1">
+          <mxGeometry height="55" width="250" x="95" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="delivery" parent="lane1" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Pilih antar ke ruangan?" vertex="1">
+          <mxGeometry height="95" width="135" x="170" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="pickup" parent="lane1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="Pilih ambil sendiri" vertex="1">
+          <mxGeometry height="55" width="335" x="47.5" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="pay" parent="lane1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="Lanjutkan pembayaran" vertex="1">
+          <mxGeometry height="55" width="335" x="47.5" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="edge13" edge="1" parent="lane1" source="pickup" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="pay" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lane2" parent="1" style="swimlane;startSize=38;horizontal=1;html=1;fillColor=#F7FBF8;strokeColor=#98A2B3;" value="Sistem SIMKAN" vertex="1">
+          <mxGeometry height="1330" width="700" x="540" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="display" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="Tampilkan menu, harga, ketersediaan" vertex="1">
+          <mxGeometry height="55" width="275" x="212.5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="check" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="«include» Periksa ketersediaan menu" vertex="1">
+          <mxGeometry height="55" width="275" x="212.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="Tampilkan ringkasan pesanan" vertex="1">
+          <mxGeometry height="55" width="275" x="212.5" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="err" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="Tampilkan pesan menu tidak tersedia" vertex="1">
+          <mxGeometry height="55" width="300" x="200" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="available" parent="lane2" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFF0CF;strokeColor=#B7791F;" value="Menu tersedia?" vertex="1">
+          <mxGeometry height="85" width="125" x="287.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="lane2" source="check" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="available" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="lane2" source="available" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="err" value="[tidak]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="payinc" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="«include» Bayar pesanan" vertex="1">
+          <mxGeometry height="55" width="275" x="270" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="paid" parent="lane2" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFF0CF;strokeColor=#B7791F;" value="Pembayaran berhasil?" vertex="1">
+          <mxGeometry height="85" width="125" x="345" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="edge15" edge="1" parent="lane2" source="payinc" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="paid" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="failed" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="Tampilkan kegagalan pembayaran" vertex="1">
+          <mxGeometry height="55" width="265" x="45" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="edge16" edge="1" parent="lane2" source="paid" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="failed" value="[tidak]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="finish" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="Tampilkan konfirmasi pesanan" vertex="1">
+          <mxGeometry height="55" width="280" x="390" y="1205" as="geometry" />
+        </mxCell>
+        <mxCell id="save" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="Simpan pesanan: status Dipesan" vertex="1">
+          <mxGeometry height="55" width="280" x="390" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="edge18" edge="1" parent="lane2" source="paid" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="save" value="[ya]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge19" edge="1" parent="lane2" source="save" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="finish" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="lane2" style="ellipse;fillColor=#111827;strokeColor=#111827;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="515" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="edge20" edge="1" parent="lane2" source="finish" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lyukJoxsyPcHuq7ofZO-17" edge="1" parent="1" source="room" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="pickup" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="room" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFFF;strokeColor=#475467;" value="«extend» Pilih antar ke ruangan: isi tujuan" vertex="1">
+          <mxGeometry height="65" width="350" x="100" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="confirm" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="check" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="available" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="delivery" value="[iya]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="delivery" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="room" value="[ya/tidak&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;]&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge14" edge="1" parent="1" source="pay" style="endArrow=block;endFill=1;html=1;rounded=1;strokeColor=#344054;fontSize=12;" target="payinc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge17" edge="1" parent="1" source="failed" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="pay" value="coba lagi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="open" style="endArrow=block;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#344054;fontSize=12;" target="display" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lyukJoxsyPcHuq7ofZO-9" edge="1" parent="1" source="choose" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="summary">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lyukJoxsyPcHuq7ofZO-14" edge="1" parent="1" source="confirm" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="err">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lyukJoxsyPcHuq7ofZO-15" connectable="0" parent="5lyukJoxsyPcHuq7ofZO-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="[pillih ulang]" vertex="1">
+          <mxGeometry relative="1" x="0.0457" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
